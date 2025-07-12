@@ -286,7 +286,19 @@ require('lazy').setup({
       },
     },
   },
-
+  {
+    'alex-popov-tech/store.nvim',
+    dependencies = {
+      'OXY2DEV/markview.nvim', -- optional, for pretty readme preview / help window
+    },
+    cmd = 'Store',
+    keys = {
+      { '<leader>S', '<cmd>Store<cr>', desc = 'Open Plugin Store' },
+    },
+    opts = {
+      -- optional configuration here
+    },
+  },
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
