@@ -95,6 +95,8 @@ vim.g.have_nerd_font = true
 
 if vim.g.neovide then
   vim.o.guifont = 'Hack Nerd Font:h9'
+  vim.g.neovide_opacity = 0.8
+  vim.g.neovide_normal_opacity = 0.8
 end
 
 -- [[ Setting options ]]
