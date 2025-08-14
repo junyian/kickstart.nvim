@@ -177,6 +177,9 @@ vim.o.confirm = true
 
 vim.o.termguicolors = true
 
+vim.o.completeopt = 'menuone,noselect'
+vim.o.expandtab = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
